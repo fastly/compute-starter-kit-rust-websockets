@@ -1,5 +1,5 @@
 [package]
-name = "compute-starter-kit-rust"
+name = "fastly-compute-project"
 version = "0.1.0"
 edition = "2021"
 # Remove this line if you want to be able to publish this crate as open source on crates.io.
