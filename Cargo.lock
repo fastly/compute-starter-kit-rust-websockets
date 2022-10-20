@@ -4,9 +4,9 @@ version = 3
 
 [[package]]
 name = "anyhow"
-version = "1.0.65"
+version = "1.0.66"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "98161a4e3e2184da77bb14f02184cdd111e83bbbcc9979dfee3c44b9a85f5602"
+checksum = "216261ddc8289130e551ddcd5ce8a064710c0d064a4d2895c67151c92b5443f6"
 
 [[package]]
 name = "bitflags"
@@ -61,9 +61,9 @@ dependencies = [
 
 [[package]]
 name = "fastly"
-version = "0.8.8"
+version = "0.8.9"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "ba0238ce763735e07f46d15e0e0950253dccc684415f94461156ad9504d6f6f8"
+checksum = "0d14ee2f12a3191582449a2e080287eff8898fc52da61c437869d91c41b3ae2a"
 dependencies = [
  "anyhow",
  "bytes 0.5.6",
@@ -92,9 +92,9 @@ dependencies = [
 
 [[package]]
 name = "fastly-macros"
-version = "0.8.8"
+version = "0.8.9"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "f1cf94715164d3b889d4c58ec8a20a59e38f12e55b2b41101fe0cccd5a61de7d"
+checksum = "e3d1b2980c09148cb84bfd18591943ee449a350dc1ff1ead69edbf012f7e2eef"
 dependencies = [
  "proc-macro2",
  "quote",
@@ -103,9 +103,9 @@ dependencies = [
 
 [[package]]
 name = "fastly-shared"
-version = "0.8.8"
+version = "0.8.9"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "78a975836fcf6b6e3e35951dafe8adf8a01d663d5e2a9e5cf116fdb1663f4787"
+checksum = "6f79939bdbbab8b1de759d584f386319454f8623681400675a07f9ad35f2b158"
 dependencies = [
  "bitflags",
  "http",
@@ -114,9 +114,9 @@ dependencies = [
 
 [[package]]
 name = "fastly-sys"
-version = "0.8.8"
+version = "0.8.9"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "d6fc8c1292b357b373914552102d3eb2788dde351c6e7dd615a521f60db33931"
+checksum = "1d01e98274a6b12c85c0eef22924871cc12c54b5322268947322463e59d09336"
 dependencies = [
  "bitflags",
  "fastly-shared",
@@ -295,9 +295,9 @@ dependencies = [
 
 [[package]]
 name = "syn"
-version = "1.0.102"
+version = "1.0.103"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "3fcd952facd492f9be3ef0d0b7032a6e442ee9b361d4acc2b1d0c4aaa5f613a1"
+checksum = "a864042229133ada95abf3b54fdc62ef5ccabe9515b64717bcb9a1919e59445d"
 dependencies = [
  "proc-macro2",
  "quote",
