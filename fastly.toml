@@ -1,5 +1,5 @@
+authors = ["<oss@fastly.com>"]
+description = "Implements WebSocket passthrough."
+language = "rust"
 manifest_version = 2
 name = "WebSockets starter for Rust"
-description = "Implements WebSocket passthrough."
-authors = ["<oss@fastly.com>"]
-language = "rust"
