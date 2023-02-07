@@ -6,7 +6,7 @@ fn main() -> Result<(), Error> {
     println!(
         "FASTLY_SERVICE_VERSION: {}",
         std::env::var("FASTLY_SERVICE_VERSION").unwrap_or_else(|_| String::new())
-    );    
+    );
 
     let mut req = Request::from_client();
 
