@@ -1,5 +1,5 @@
 authors = ["<oss@fastly.com>"]
 description = "Implements WebSocket passthrough."
 language = "rust"
-manifest_version = 2
+manifest_version = 3
 name = "WebSockets passthrough"
