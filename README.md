@@ -6,7 +6,7 @@ Learn about Fastly Compute with WebSockets using a basic starter that sends conn
 
 Note: The WebSockets feature handles passthrough connections only. If you want to handle WebSocket connections from clients without having to run a WebSocket backend, see the [Fanout Starter Kit](https://github.com/fastly/compute-starter-kit-rust-fanout).
 
-**For more details about this and other starter kits for Compute, see the [Fastly Developer Hub](https://developer.fastly.com/solutions/starters/)**.
+**For more details about this and other starter kits for Compute, see the [Fastly Documentation Hub](https://www.fastly.com/documentation/solutions/starters/)**.
 
 ## Setup
 
@@ -16,7 +16,7 @@ After deploying the app and setting up the backend configuration, all connection
 
 ## Note
 
-This app is not currently supported in Fastly's [local development server](https://developer.fastly.com/learning/compute/testing/#running-a-local-testing-server), as the development server does not support WebSockets features. To experiment with WebSockets, you will need to publish this project to your Fastly Compute service, using the `fastly compute publish` command.
+This app is not currently supported in Fastly's [local development server](https://www.fastly.com/documentation/guides/compute/testing/#running-a-local-testing-server), as the development server does not support WebSockets features. To experiment with WebSockets, you will need to publish this project to your Fastly Compute service, using the `fastly compute publish` command.
 
 ## Security issues
 
