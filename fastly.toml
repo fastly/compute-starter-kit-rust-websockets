@@ -3,3 +3,6 @@ description = "Implements WebSocket passthrough."
 language = "rust"
 manifest_version = 3
 name = "WebSockets passthrough"
+
+[scripts]
+  build = "cargo build --bin fastly-compute-project --release --target wasm32-wasi --color always"
