@@ -1,4 +1,3 @@
-use fastly::experimental::RequestUpgradeWebsocket;
 use fastly::{Error, Request};
 
 fn main() -> Result<(), Error> {
