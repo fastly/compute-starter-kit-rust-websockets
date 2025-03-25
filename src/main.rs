@@ -10,9 +10,11 @@ fn main() -> Result<(), Error> {
     let mut req = Request::from_client();
 
     if let Some("websocket") = req.get_header_str("Upgrade") {
-        Ok(req.handoff_websocket("backend")?)
+        req.handoff_websocket("backend")?;
+        Ok(())
     } else {
         req.set_pass(true);
-        Ok(req.send("backend")?.send_to_client())
+        req.send("backend")?.send_to_client();
+        Ok(())
     }
 }
