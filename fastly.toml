@@ -1,8 +1,8 @@
-authors = ["<oss@fastly.com>"]
+name = "WebSockets passthrough"
 description = "Implements WebSocket passthrough."
+authors = ["<devrel@fastly.com>"]
 language = "rust"
 manifest_version = 3
-name = "WebSockets passthrough"
 
 [scripts]
-  build = "cargo build --bin fastly-compute-project --release --target wasm32-wasi --color always"
+  build = "cargo build --profile release"
