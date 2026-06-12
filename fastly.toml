@@ -6,3 +6,16 @@ manifest_version = 3
 
 [scripts]
   build = "cargo build --profile release"
+
+[local_server]
+[local_server.backends]
+[local_server.backends.backend]
+url = "https://echo.websocket.org/"
+override_host = "echo.websocket.org"
+
+[setup.backends]
+[setup.backends.backend]
+
+[setup.products]
+[setup.products.websockets]
+enable = true
