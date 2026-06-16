@@ -16,9 +16,9 @@ After deploying the app and setting up the backend configuration, all connection
 
 ### Enabling WebSockets passthrough
 
-The first time this starter kit is deployed to your service, WebSockets passthrough is enabled automatically.
+When you create a new service from this starter kit, WebSockets passthrough is enabled automatically.
 
-To [enable WebSockets passthrough](https://www.fastly.com/documentation/guides/concepts/real-time-messaging/websockets-tunnel/#enabling-websockets-passthrough) support after the fact to an existing Fastly service, type:
+To [enable WebSockets passthrough](https://www.fastly.com/documentation/guides/concepts/real-time-messaging/websockets-tunnel/#enabling-websockets-passthrough) on an existing Fastly service, type:
 
 ```shell
 fastly products --enable=websockets
